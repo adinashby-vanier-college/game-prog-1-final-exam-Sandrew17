@@ -58,21 +58,11 @@ That is: create the initial objects and add them to the world.</javadoc>
                 <call expression="addObject(cannonBall9,191,473)" expression-java="addObject(cannonBall9, 191, 473)" enable="true"/>
                 <variable type="FinishLocation" type-java="FinishLocation" name="finishLocation" value="new FinishLocation()" value-java=" new FinishLocation()" enable="true"/>
                 <call expression="addObject(finishLocation,75,324)" expression-java="addObject(finishLocation, 75, 324)" enable="true"/>
-                <variable type="Ladybug" type-java="Ladybug" name="hero" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
-                <call expression="addObject(hero,720,286)" expression-java="addObject(hero, 720, 286)" enable="true"/>
-                <call expression="hero.setLocation(731,298)" expression-java="hero.setLocation(731, 298)" enable="true"/>
-                <call expression="hero.setLocation(709,282)" expression-java="hero.setLocation(709, 282)" enable="true"/>
-                <call expression="removeObject(hero)" expression-java="removeObject(hero)" enable="true"/>
-                <call expression="addObject(hero,711,302)" expression-java="addObject(hero, 711, 302)" enable="true"/>
-                <call expression="hero.setLocation(722,39)" expression-java="hero.setLocation(722, 39)" enable="true"/>
                 <call expression="canon3.setRotation(180)" expression-java="canon3.setRotation(180)" enable="true"/>
                 <call expression="canon4.setLocation(737,479)" expression-java="canon4.setLocation(737, 479)" enable="true"/>
                 <call expression="canon4.setRotation(180)" expression-java="canon4.setRotation(180)" enable="true"/>
                 <call expression="canon5.setRotation(90)" expression-java="canon5.setRotation(90)" enable="true"/>
                 <call expression="cannonBall5.setLocation(415,318)" expression-java="cannonBall5.setLocation(415, 318)" enable="true"/>
-                <call expression="hero.setRotation(180)" expression-java="hero.setRotation(180)" enable="true"/>
-                <call expression="hero.setLocation(742,58)" expression-java="hero.setLocation(742, 58)" enable="true"/>
-                <call expression="hero.setLocation(734,54)" expression-java="hero.setLocation(734, 54)" enable="true"/>
                 <call expression="cannonBall4.setLocation(496,211)" expression-java="cannonBall4.setLocation(496, 211)" enable="true"/>
                 <call expression="cannonBall5.setLocation(404,303)" expression-java="cannonBall5.setLocation(404, 303)" enable="true"/>
                 <variable type="CannonBall" type-java="CannonBall" name="cannonBall10" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
@@ -83,6 +73,52 @@ That is: create the initial objects and add them to the world.</javadoc>
                 <call expression="cannonBall6.setLocation(616,177)" expression-java="cannonBall6.setLocation(616, 177)" enable="true"/>
                 <call expression="cannonBall.setLocation(220,103)" expression-java="cannonBall.setLocation(220, 103)" enable="true"/>
                 <call expression="cannonBall2.setLocation(338,94)" expression-java="cannonBall2.setLocation(338, 94)" enable="true"/>
+                <variable type="Ladybug" type-java="Ladybug" name="ladybug" value="new Ladybug()" value-java=" new Ladybug()" enable="true"/>
+                <call expression="addObject(ladybug,699,58)" expression-java="addObject(ladybug, 699, 58)" enable="true"/>
+                <call expression="ladybug.setLocation(710,61)" expression-java="ladybug.setLocation(710, 61)" enable="true"/>
+                <call expression="ladybug.turn(90)" expression-java="ladybug.turn(90)" enable="true"/>
+                <call expression="ladybug.turn(90)" expression-java="ladybug.turn(90)" enable="true"/>
+                <call expression="ladybug.setLocation(707,66)" expression-java="ladybug.setLocation(707, 66)" enable="true"/>
+                <call expression="finishLocation.setLocation(37,554)" expression-java="finishLocation.setLocation(37, 554)" enable="true"/>
+                <call expression="cannonBall2.setLocation(410,96)" expression-java="cannonBall2.setLocation(410, 96)" enable="true"/>
+                <call expression="cannonBall.setLocation(194,102)" expression-java="cannonBall.setLocation(194, 102)" enable="true"/>
+                <call expression="cannonBall3.turn(90)" expression-java="cannonBall3.turn(90)" enable="true"/>
+                <call expression="cannonBall4.turn(90)" expression-java="cannonBall4.turn(90)" enable="true"/>
+                <call expression="cannonBall4.setLocation(498,358)" expression-java="cannonBall4.setLocation(498, 358)" enable="true"/>
+                <call expression="cannonBall6.turn(180)" expression-java="cannonBall6.turn(180)" enable="true"/>
+                <call expression="cannonBall7.turn(180)" expression-java="cannonBall7.turn(180)" enable="true"/>
+                <call expression="cannonBall8.turn(180)" expression-java="cannonBall8.turn(180)" enable="true"/>
+                <call expression="cannonBall8.setLocation(373,482)" expression-java="cannonBall8.setLocation(373, 482)" enable="true"/>
+                <call expression="cannonBall9.setLocation(110,480)" expression-java="cannonBall9.setLocation(110, 480)" enable="true"/>
+                <call expression="cannonBall9.turn(180)" expression-java="cannonBall9.turn(180)" enable="true"/>
+                <call expression="cannonBall2.setLocation(394,105)" expression-java="cannonBall2.setLocation(394, 105)" enable="true"/>
+                <call expression="cannonBall3.setLocation(496,84)" expression-java="cannonBall3.setLocation(496, 84)" enable="true"/>
+                <call expression="cannonBall4.setLocation(510,265)" expression-java="cannonBall4.setLocation(510, 265)" enable="true"/>
+                <call expression="cannonBall4.setLocation(505,233)" expression-java="cannonBall4.setLocation(505, 233)" enable="true"/>
+                <call expression="cannonBall4.setLocation(501,233)" expression-java="cannonBall4.setLocation(501, 233)" enable="true"/>
+                <call expression="finishLocation.setLocation(55,536)" expression-java="finishLocation.setLocation(55, 536)" enable="true"/>
+                <call expression="finishLocation.setLocation(46,538)" expression-java="finishLocation.setLocation(46, 538)" enable="true"/>
+                <call expression="finishLocation.setLocation(50,565)" expression-java="finishLocation.setLocation(50, 565)" enable="true"/>
+                <call expression="finishLocation.setLocation(50,565)" expression-java="finishLocation.setLocation(50, 565)" enable="true"/>
+                <call expression="cannonBall4.setLocation(505,281)" expression-java="cannonBall4.setLocation(505, 281)" enable="true"/>
+                <variable type="Canon" type-java="Canon" name="canon6" value="new Canon()" value-java=" new Canon()" enable="true"/>
+                <call expression="addObject(canon6,46,431)" expression-java="addObject(canon6, 46, 431)" enable="true"/>
+                <variable type="CannonBall" type-java="CannonBall" name="cannonBall11" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
+                <call expression="addObject(cannonBall11,97,431)" expression-java="addObject(cannonBall11, 97, 431)" enable="true"/>
+                <variable type="CannonBall" type-java="CannonBall" name="cannonBall12" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
+                <call expression="addObject(cannonBall12,352,430)" expression-java="addObject(cannonBall12, 352, 430)" enable="true"/>
+                <variable type="Canon" type-java="Canon" name="canon7" value="new Canon()" value-java=" new Canon()" enable="true"/>
+                <call expression="addObject(canon7,194,25)" expression-java="addObject(canon7, 194, 25)" enable="true"/>
+                <call expression="canon7.turn(90)" expression-java="canon7.turn(90)" enable="true"/>
+                <variable type="CannonBall" type-java="CannonBall" name="cannonBall13" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
+                <call expression="addObject(cannonBall13,193,63)" expression-java="addObject(cannonBall13, 193, 63)" enable="true"/>
+                <variable type="CannonBall" type-java="CannonBall" name="cannonBall14" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
+                <call expression="addObject(cannonBall14,193,185)" expression-java="addObject(cannonBall14, 193, 185)" enable="true"/>
+                <variable type="CannonBall" type-java="CannonBall" name="cannonBall15" value="new CannonBall()" value-java=" new CannonBall()" enable="true"/>
+                <call expression="addObject(cannonBall15,191,306)" expression-java="addObject(cannonBall15, 191, 306)" enable="true"/>
+                <call expression="cannonBall13.turn(90)" expression-java="cannonBall13.turn(90)" enable="true"/>
+                <call expression="cannonBall14.turn(90)" expression-java="cannonBall14.turn(90)" enable="true"/>
+                <call expression="cannonBall15.turn(90)" expression-java="cannonBall15.turn(90)" enable="true"/>
             </body>
         </method>
     </methods>
